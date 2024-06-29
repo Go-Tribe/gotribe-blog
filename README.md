@@ -1,7 +1,7 @@
 <h1 align="center">gotribe-blog</h1>
 
 <div align="center">
-本项目为 [gotribe](https://github.com/Go-Tribe/gotribe) 的博客主题。使用 vue + next.js3 构建，采用 ssr运行，针对 SEO 进行了优化。
+本项目为 <a href="https://github.com/Go-Tribe/gotribe">gotribe</a> 的博客主题。使用 vue + next.js3 构建，采用 ssr运行，针对 SEO 进行了优化。
 
 <p align="center">
 <img src="https://img.shields.io/github/license/go-tribe/gotribe" alt="License"/>
