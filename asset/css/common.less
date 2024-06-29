@@ -1,0 +1,30 @@
+.ellipsis () {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+
+.multi-line-ellipsis (@line) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: @line;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.line {
+  .ellipsis();
+}
+
+.line-2 {
+  .multi-line-ellipsis(2);
+}
+
+.line-4 {
+  .multi-line-ellipsis(4);
+}
+
+.line-7 {
+  .multi-line-ellipsis(7);
+}
